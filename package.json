@@ -1,0 +1,20 @@
+{
+  "name": "js-test-2022-12-02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "dead": "dead-server --port=4001 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "dead-server": "^1.0.9"
+  }
+}
